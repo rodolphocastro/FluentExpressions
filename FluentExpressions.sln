@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentExpressions.Core", "src\FluentExpressions.Core\FluentExpressions.Core.csproj", "{5704FA21-8F36-4CCB-96A1-AB427F941232}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Core", "tests\Tests.Core\Tests.Core.csproj", "{D729FBBC-4BC7-4CA9-A8C8-C5B97CE1DA1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{5704FA21-8F36-4CCB-96A1-AB427F941232}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5704FA21-8F36-4CCB-96A1-AB427F941232}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5704FA21-8F36-4CCB-96A1-AB427F941232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D729FBBC-4BC7-4CA9-A8C8-C5B97CE1DA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D729FBBC-4BC7-4CA9-A8C8-C5B97CE1DA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D729FBBC-4BC7-4CA9-A8C8-C5B97CE1DA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D729FBBC-4BC7-4CA9-A8C8-C5B97CE1DA1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
