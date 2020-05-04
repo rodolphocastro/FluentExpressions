@@ -1,9 +1,12 @@
-﻿namespace FluentExpressions.Core.Tokens
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Tests.Core")]
+namespace FluentExpressions.Core.Tokens
 {
     /// <summary>
     /// Constantes de Anchors.
     /// </summary>
-    public static class AnchorConstants
+    internal static class AnchorConstants
     {
         /// <summary>
         /// Start of a Match (\G).
